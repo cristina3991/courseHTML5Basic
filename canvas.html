@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Tag Canvas
+        </title>
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <canvas id="miCanvas" width="300" height="400"><!-- CANVAS simula una especie de lienzo y permite dibujar en el HTML en conjunto de javascript -->
+            Tu navegador no puede mostrar este contenido<!-- Se debe avisar cuando el navegador no es compatible con HTML5 -->
+        </canvas>
+        <script>
+            var canvas = document.getElementById("miCanvas");
+            var ctx = canvas.getContext("2d");
+            ctx.fillRect(0,0,20,20);
+        </script>
+    </body>
+</html>
